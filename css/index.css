@@ -572,14 +572,15 @@
 	width: 1226px;
 	height: 80px;
 	background-color: #fff;
-	margin: 0 auto;
     border-bottom: 1px solid #e0e0e0;
     float: left;
+    margin-left: 61.5px;
 }
 .Site-top-neikuang-item1 .iconfont{
 	font-size: 30px;
 	color: #616161;
 	float: left;
+	margin-left: 60px;
 }
 .Site-top-neikuang-item1{
     width: 242.73px;
@@ -590,7 +591,33 @@
 }
 .site-top-wenzi{
 	font-size: 16px;
-	color: #333;
+	color: #616161;
 	border-right: 1px solid #e0e0e0;
-	float: right;
+	line-height: 30px;
+}
+.site-top-wenzi1{
+	font-size: 16px;
+	color: #616161;
+	line-height: 30px;
+}
+.Site-top-neikuang-item1:hover .site-top-wenzi{
+	color: orangered;
+}
+.Site-top-neikuang-item1:hover .site-top-wenzi1{
+	color: orangered;
+}
+.Site-top-neikuang-item1:hover .icon-weixiu{
+	color: orangered;
+}
+.Site-top-neikuang-item1:hover .icon-qitiantuihuan{
+	color: orangered;
+}
+.Site-top-neikuang-item1:hover .icon-15tianmianfeihuanhuo24px{
+	color: orangered;
+}
+.Site-top-neikuang-item1:hover .icon-gift{
+	color: orangered;
+}
+.Site-top-neikuang-item1:hover .icon-dingwei{
+	color: orangered;
 }
