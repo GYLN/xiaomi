@@ -4,13 +4,16 @@
 	<meta charset="UTF-8">
 	<title>小米</title>
 	<link rel="stylesheet" href="css/index.css">
-	<link rel="stylesheet" href="css/beuy.css">
+	<link rel="stylesheet" href="css/base.css">
 	<link rel="stylesheet" href="https://at.alicdn.com/t/font_461533_4ufs9jsbx8g833di.css">
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<script src="js/jquery-min.js"></script>
+	<script src="js/swiper.min.js"></script>
 </head>
 <body>
 
 	<!-- 头部开始 -->
-	<div class="head">
+	<div class="head floor">
 		<div class="neikuang">
 			<div class="head-left">
 				<h5 class="head-wenzi">小米商城</h5>
@@ -52,10 +55,11 @@
 	<!-- 头部结束 -->
 
 	<!-- 导航开始 -->
-	<div class="nav-neikuang">
+	<div class="nav-neikuang floor">
 		<div class="logo">
-			<img src="img/mi-logo.png" alt="">
+			<img attr="img/mi-logo.png" src="img/加载2.jpg" alt="">
 		</div>
+
 		<div class="nav-wenzi">
 			<a href="" class="nav-font">小米手机</a>
 			<a href="" class="nav-font">红米</a>
@@ -68,11 +72,77 @@
 			<a href="" class="nav-font">服务</a>
 			<a href="" class="nav-font">社区</a>
 		</div>
+
+		<div class="nav-search">
+			<input type="text" placeholder="请输入商品信息" class="sousuo">
+			<input type="button" class="nav-btn iconfont" value="&#xe643;">
+		</div>
 	</div>
 	<!-- 导航结束 -->
 
+	<!-- banner开始 -->
+	<div class="banner swiper-container floor">
+	    <div class="swiper-wrapper">
+			<div class="banner-img swiper-slide">
+				<img attr="img/banner.jpg" src="img/加载2.jpg" alt="">
+			</div>
+
+			<div class="banner-img swiper-slide">
+				<img attr="img/banner2.jpg" src="img/加载2.jpg" alt="">
+			</div>
+
+			<div class="banner-img swiper-slide">
+				<img attr="img/banner3.jpg" src="img/加载2.jpg" alt="">
+			</div>
+
+			<div class="banner-img swiper-slide">
+				<img attr="img/banner4.jpg" src="img/加载2.jpg" alt="">
+			</div>
+
+			<div class="banner-img swiper-slide">
+				<img attr="img/banner5.jpg" src="img/加载2.jpg" alt="">
+			</div>
+
+			<div class="banner-img swiper-slide">
+				<img attr="img/banner6.png" src="img/加载2.jpg" alt="">
+			</div>
+
+			<div class="banner-img swiper-slide">
+				<img attr="img/banner7.jpg" src="img/加载2.jpg" alt="">
+			</div>
+		</div>
+		<div class="banner-nav">
+			<div class="banner-item"><span>手机 电话卡</span><a href="" class="iconfont icon-xiangyou"></a></div>
+			<div class="banner-item"><span>笔记本</span><a href="" class="iconfont icon-xiangyou"></a></div>
+			<div class="banner-item"><span>电视 盒子</span><a href="" class="iconfont icon-xiangyou"></a></div>
+			<div class="banner-item"><span>路由器 智能硬件</span><a href="" class="iconfont icon-xiangyou"></a></div>
+			<div class="banner-item"><span>移动电源 电池 插线板</span><a href="" class="iconfont icon-xiangyou"></a></div>
+			<div class="banner-item"><span>耳机 音箱</span><a href="" class="iconfont icon-xiangyou"></a></div>
+			<div class="banner-item"><span>保护套 贴膜</span><a href="" class="iconfont icon-xiangyou"></a></div>
+			<div class="banner-item"><span>线材 支架 存储卡</span><a href="" class="iconfont icon-xiangyou"></a></div>
+			<div class="banner-item"><span>箱包 服饰  鞋 眼镜</span><a href="" class="iconfont icon-xiangyou"></a></div>
+			<div class="banner-item"><span>米兔 周边生活</span><a href="" class="iconfont icon-xiangyou"></a></div>
+		</div>
+
+		<div class="banner-btn lbtn swiper-button-prev swiper-button-white"></div>
+
+		<div class="banner-btn rbtn swiper-button-next swiper-button-white"></div>
+
+		<ul class="banner-pages swiper-pagination" type="square"><!-- disc circle square -->
+			<!-- <li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li> -->
+		</ul>
+		
+	</div>
+	<!-- banner结束 -->
+
 	<!-- 列表开始 -->
-		<div class="list">
+		<div class="list floor">
 			<div class="list-tu list-tu1">
 				<div class="list-icon">
 					<a href=""class="iconfont icon-xuangoushouji"></a>
@@ -110,19 +180,19 @@
 
 			</div>
 			<a href="" class="list-tu list-tu3">
-				<img src="img/手机.jpg" alt="">
+				<img attr="img/手机.jpg" src="img/加载2.jpg" alt="">
 			</a>
 			<a href="" class="list-tu">
-				<img src="img/xmad_15067798057483_gquZc.jpg" alt="">
+				<img attr="img/xmad_15067798057483_gquZc.jpg" src="img/加载2.jpg" alt="">
 			</a>
 			<a href="" class="list-tu list-tu2">
-				<img src="img/xmad_15082490327258_ktOhq.jpg" alt="">
+				<img attr="img/xmad_15082490327258_ktOhq.jpg" src="img/加载2.jpg" alt="">
 			</a>
 		</div>
 	<!-- 列表结束 -->
 
 	<!-- 单品开始 -->
-	<div class="danpin">
+	<div class="danpin floor">
 		<div class="danpin-top">
 			<div class="danpin-left">小米明星单品</div>
 			<div class="danpin-right">
@@ -137,7 +207,7 @@
 		<div class="danpin-bottom">
 			<div class="danpin-contant">
 				<a href="" class="danpin-img">
-					<img src="img/contant1.png" alt="">
+					<img attr="img/contant1.png" src="img/加载2.jpg" alt="">
 				</a href="">
 				<a href="" class="danpin-wenzi1">小米Max2</a>
 				<h5 class="danpin-wenzi2">大屏大电量，享多重好礼</h5>
@@ -146,7 +216,7 @@
 
 			<div class="danpin-contant danpin-contant1">
 				<a href="" class="danpin-img">
-					<img src="img/contant2.png" alt="">
+					<img attr="img/contant2.png" src="img/加载2.jpg" alt="">
 				</a href="">
 				<a href="" class="danpin-wenzi1">红米Note 4X</a>
 				<h5 class="danpin-wenzi2">4100mAh超长续航，多彩金属</h5>
@@ -155,7 +225,7 @@
 
 			<div class="danpin-contant danpin-contant2">
 				<a href="" class="danpin-img">
-					<img src="img/contant3.png" alt="">
+					<img attr="img/contant3.png" src="img/加载2.jpg" alt="">
 				</a href="">
 				<a href="" class="danpin-wenzi1">红米4X</a>
 				<h5 class="danpin-wenzi2">4100mAh超长续航，8核处理器</h5>
@@ -164,7 +234,7 @@
 
 			<div class="danpin-contant danpin-contant3">
 				<a href="" class="danpin-img">
-					<img src="img/contant4.png" alt="">
+					<img attr="img/contant4.png" src="img/加载2.jpg" alt="">
 				</a href="">
 				<a href="" class="danpin-wenzi1">小米电视4A 43英寸 标准版</a>
 				<h5 class="danpin-wenzi2">全高清HDR 四核高性能处理器</h5>
@@ -173,7 +243,7 @@
 
 			<div class="danpin-contant danpin-contant4">
 				<a href="" class="danpin-img">
-					<img src="img/contant5.png" alt="">
+					<img attr="img/contant5.png" src="img/加载2.jpg" alt="">
 				</a href="">
 				<a href="" class="danpin-wenzi1">小米笔记本</a>
 				<h5 class="danpin-wenzi2">更轻更薄，像杂志一样随身携带</h5>
@@ -185,7 +255,7 @@
 
 	<!-- 商品开始 -->
 	<div class="goods">
-		<div class="jiadian">
+		<div class="jiadian floor">
 			<div class="jiadian-top">
 				<h2>家电</h2>
 				<div class="jiadian-wenzi">
@@ -197,23 +267,23 @@
 			</div>
 			<div class="jiadian-bottom">
 				<div class="jiadian-left">
-					<img src="img/净水器.jpg" alt="">
+					<img attr="img/净水器.jpg" src="img/加载2.jpg" alt="">
 				</div>
 				<div class="jiadian-right">
 					<div class="jiadian-item">
 						<div class="jiadian-item1">享8折</div>
 						<a href="" class="jiadian-item2">
-							<img src="img/小米电视4A 32.jpg" alt="">
+							<img attr="img/小米电视4A 32.jpg" src="img/加载2.jpg" alt="">
 						</a>
 						<a href="" class="jiadian-item3">小米电视4A 32</a>
 						<span class="jiadian-item4">64位四核处理器／1GB+4GB大内存</span>
 						<span class="jiadian-item5">949元</span>
-						<a href="" class="jiadian-item6"></a>
+						<a href="" class="jiadian-item6"><span class="jiadian-item6-wenzi">小米电视</span></a>
 					</div>
 					<div class="jiadian-item">
 						<div class="jiadian-item1">享9折</div>
 						<a href="" class="jiadian-item2">
-							<img src="img/小米电视4A 49英寸.jpg" alt="">
+							<img attr="img/小米电视4A 49英寸.jpg" src="img/加载2.jpg" alt="">
 						</a>
 						<a href="" class="jiadian-item3">小米电视4A 49英寸 标准版</a>
 						<span class="jiadian-item4">2GB+8GB 大储存／全高清HDR</span>
@@ -223,7 +293,7 @@
 					<div class="jiadian-item">
 						<div class="jiadian-item1">新品</div>
 						<a href="" class="jiadian-item2">
-							<img src="img/小米笔记本Pro.jpg" alt="">
+							<img attr="img/小米笔记本Pro.jpg" src="img/加载2.jpg" alt="">
 						</a>
 						<a href="" class="jiadian-item3">小米笔记本Pro 15.6英寸</a>
 						<span class="jiadian-item4">全金属强化机身/FHD全贴合屏幕</span>
@@ -233,7 +303,7 @@
 					<div class="jiadian-item">
 						<div class="jiadian-item1"></div>
 						<a href="" class="jiadian-item2">
-							<img src="img/小米笔记本Air.jpg" alt="">
+							<img attr="img/小米笔记本Air.jpg" src="img/加载2.jpg" alt="">
 						</a>
 						<a href="" class="jiadian-item3">小米笔记本Air 13.3" i7处理器</a>
 						<span class="jiadian-item4">Intel酷睿i7处理器，8GB内存+256GB</span>
@@ -243,7 +313,7 @@
 					<div class="jiadian-item">
 						<div class="jiadian-item1">享8折</div>
 						<a href="" class="jiadian-item2">
-							<img src="img/米家恒温电水壶.jpg" alt="">
+							<img attr="img/米家恒温电水壶.jpg" src="img/加载2.jpg" alt="">
 						</a>
 						<a href="" class="jiadian-item3">米家恒温电水壶</a>
 						<span class="jiadian-item4">水温智能控制，304 不锈钢内胆</span>
@@ -253,7 +323,7 @@
 					<div class="jiadian-item">
 						<div class="jiadian-item1">享8折</div>
 						<a href="" class="jiadian-item2">
-							<img src="img/智米全直流变频空调.jpg" alt="">
+							<img attr="img/智米全直流变频空调.jpg" src="img/加载2.jpg" alt="">
 						</a>
 						<a href="" class="jiadian-item3">智米全直流变频空调</a>
 						<span class="jiadian-item4">一级能效，强劲冷暖</span>
@@ -263,7 +333,7 @@
 					<div class="jiadian-item">
 						<div class="jiadian-item1">享8折</div>
 						<a href="" class="jiadian-item2">
-							<img src="img/小米净水器（厨上式） 增强版.jpg" alt="">
+							<img attr="img/小米净水器（厨上式） 增强版.jpg" src="img/加载2.jpg" alt="">
 						</a>
 						<a href="" class="jiadian-item3">小米净水器（厨上式） 增强版</a>
 						<span class="jiadian-item4">400 加仑大流量，纯水更多，废水更少</span>
@@ -279,7 +349,7 @@
 								<span class="jiadian-item5">399元</span>
 							</div>
 							<a href="" class="jiadian-items3">
-								<img src="img/小白摄像机.jpg" alt="">
+								<img attr="img/小白摄像机.jpg" src="img/加载2.jpg" alt="">
 							</a>
 						</div>
 
@@ -299,7 +369,7 @@
 			</div>
 		</div>
 
-		<div class="jiadian">
+		<div class="jiadian floor">
 			<div class="jiadian-top">
 				<h2>智能</h2>
 				<div class="jiadian-wenzi">
@@ -313,12 +383,12 @@
 			<div class="jiadian-bottom">
 				<div class="jiadian-right zhineng-right">
 					<a href="" class="jiadian-item">
-						<img src="img/智能1.jpg" alt="">	
+						<img attr="img/智能1.jpg" src="img/加载2.jpg" alt="">	
 					</a>
 					<div class="jiadian-item">
 						<div class="jiadian-item1-1">新品</div>
 						<a href="" class="jiadian-item2">
-							<img src="img/智能2.jpg" alt="">
+							<img attr="img/智能2.jpg" src="img/加载2.jpg" alt="">
 						</a>
 						<a href="" class="jiadian-item3">小米AI音箱</a>
 						<span class="jiadian-item4"></span>
@@ -328,7 +398,7 @@
 					<div class="jiadian-item">
 						<div class="jiadian-item1-1">新品</div>
 						<a href="" class="jiadian-item2">
-							<img src="img/智能3.jpg" alt="">
+							<img attr="img/智能3.jpg" src="img/加载2.jpg" alt="">
 						</a>
 						<a href="" class="jiadian-item3">米家床头灯</a>
 						<span class="jiadian-item4">如梦如幻，多彩光世界</span>
@@ -339,7 +409,7 @@
 					<div class="jiadian-item">
 						<div class="jiadian-item1-1">新品</div>
 						<a href="" class="jiadian-item2">
-							<img src="img/智能4.jpg" alt="">
+							<img attr="img/智能4.jpg" src="img/加载2.jpg" alt="">
 						</a>
 						<a href="" class="jiadian-item3">小白智能摄像机大众版</a>
 						<span class="jiadian-item4">看得更清，看得更远</span>
@@ -350,7 +420,7 @@
 					<div class="jiadian-item">
 						<div class="jiadian-item1-1">新品</div>
 						<a href="" class="jiadian-item2">
-							<img src="img/智能5.jpg" alt="">
+							<img attr="img/智能5.jpg" src="img/加载2.jpg" alt="">
 						</a>
 						<a href="" class="jiadian-item3">车载空气净化器(USB车充版)</a>
 						<span class="jiadian-item4">高效净化车内空气</span>
@@ -360,12 +430,12 @@
 
 					<div class="jiadian-item">
 						<a href="" class="jiadian-item">
-							<img src="img/智能6.jpg" alt="">	
+							<img attr="img/智能6.jpg" src="img/加载2.jpg" alt="">	
 					    </a>
 					</div>
 					<div class="jiadian-item">
 						<a href="" class="jiadian-item2">
-							<img src="img/智能7.jpg" alt="">
+							<img attr="img/智能7.jpg" src="img/加载2.jpg" alt="">
 						</a>
 						<a href="" class="jiadian-item3">米家行车记录仪</a>
 						<span class="jiadian-item4">晚上能拍清车牌的行车记录仪</span>
@@ -374,7 +444,7 @@
 					</div>
 					<div class="jiadian-item">
 						<a href="" class="jiadian-item2">
-							<img src="img/智能8.jpg" alt="">
+							<img attr="img/智能8.jpg" src="img/加载2.jpg" alt="">
 						</a>
 						<a href="" class="jiadian-item3">九号平衡车</a>
 						<span class="jiadian-item4">年轻人的酷玩具，骑行遥控两种玩法</span>
@@ -383,7 +453,7 @@
 					</div>
 					<div class="jiadian-item">
 						<a href="" class="jiadian-item2">
-							<img src="img/智能9.jpg" alt="">
+							<img attr="img/智能9.jpg" src="img/加载2.jpg" alt="">
 						</a>
 						<a href="" class="jiadian-item3">米家iHealth血压计</a>
 						<span class="jiadian-item4">爸妈上手就会用的智能血压计</span>
@@ -399,7 +469,7 @@
 								<span class="jiadian-item5">299元</span>
 							</div>
 							<a href="" class="jiadian-items3">
-								<img src="img/智能10.jpg" alt="">
+								<img attr="img/智能10.jpg" src="img/加载2.jpg" alt="">
 							</a>
 						</div>
 
@@ -419,7 +489,7 @@
 			</div>
 		</div>
 
-		<div class="jiadian">
+		<div class="jiadian floor">
 			<div class="jiadian-top">
 				<h2>搭配</h2>
 				<div class="jiadian-wenzi">
@@ -432,12 +502,12 @@
 			<div class="jiadian-bottom">
 				<div class="jiadian-right dapei-right">
 					<a href="" class="jiadian-item">
-						<img src="img/dapei1.jpg" alt="">
+						<img attr="img/dapei1.jpg" src="img/加载2.jpg" alt="">
 					</a>
 					<div class="jiadian-item">
 						<div class="jiadian-item1-1">新品</div>
 						<a href="" class="jiadian-item2">
-							<img src="img/搭配1.jpg" alt="">
+							<img attr="img/搭配1.jpg" src="img/加载2.jpg" alt="">
 						</a>
 						<a href="" class="jiadian-item3">小米移动电源2C 20000mAh</a>
 						<span class="jiadian-item5">129元</span>
@@ -447,7 +517,7 @@
 					<div class="jiadian-item">
 						<div class="jiadian-item1-2"></div>
 						<a href="" class="jiadian-item2">
-							<img src="img/搭配2.jpg" alt="">
+							<img attr="img/搭配2.jpg" src="img/加载2.jpg" alt="">
 						</a>
 						<a href="" class="jiadian-item3">小米移动电源10000mAh高配</a>
 						<span class="jiadian-item5">149元</span>
@@ -457,7 +527,7 @@
 					<div class="jiadian-item">
 						<div class="jiadian-item1">享9折</div>
 						<a href="" class="jiadian-item2">
-							<img src="img/搭配3.jpg" alt="">
+							<img attr="img/搭配3.jpg" src="img/加载2.jpg" alt="">
 						</a>
 						<a href="" class="jiadian-item3">10000mAh小米移动电源2</a>
 						<span class="jiadian-item5">79元</span>
@@ -467,7 +537,7 @@
 					<div class="jiadian-item">
 						<div class="jiadian-item1">新品</div>
 						<a href="" class="jiadian-item2">
-							<img src="img/搭配4.jpg" alt="">
+							<img attr="img/搭配4.jpg" src="img/加载2.jpg" alt="">
 						</a>
 						<a href="" class="jiadian-item3">小米运动蓝牙耳机mini</a>
 						<span class="jiadian-item5">169元</span>
@@ -475,12 +545,12 @@
 						<a href="" class="jiadian-item6"></a>
 					</div>
 					<a href="" class="jiadian-item">
-						<img src="img/dapei6.jpg" alt="">
+						<img attr="img/dapei6.jpg" src="img/加载2.jpg" alt="">
 					</a>
 					<div class="jiadian-item">
 						<div class="jiadian-item1">享8折</div>
 						<a href="" class="jiadian-item2">
-							<img src="img/搭配5.jpg" alt="">
+							<img attr="img/搭配5.jpg" src="img/加载2.jpg" alt="">
 						</a>
 						<a href="" class="jiadian-item3">小米运动蓝牙耳机</a>
 						<span class="jiadian-item5">149元</span>
@@ -490,7 +560,7 @@
 					<div class="jiadian-item">
 						<div class="jiadian-item1">享8折</div>
 						<a href="" class="jiadian-item2">
-							<img src="img/搭配6.jpg" alt="">
+							<img attr="img/搭配6.jpg" src="img/加载2.jpg" alt="">
 						</a>
 						<a href="" class="jiadian-item3">小米活塞耳机 清新版</a>
 						<span class="jiadian-item5">29元</span>
@@ -500,7 +570,7 @@
 					<div class="jiadian-item">
 						<div class="jiadian-item1-3"></div>
 						<a href="" class="jiadian-item2">
-							<img src="img/搭配7.jpg" alt="">
+							<img attr="img/搭配7.jpg" src="img/加载2.jpg" alt="">
 						</a>
 						<a href="" class="jiadian-item3">小米降噪耳机Type-C版</a>
 						<span class="jiadian-item5">299元</span>
@@ -516,7 +586,7 @@
 								<span class="jiadian-item5">99元</span>
 							</div>
 							<a href="" class="jiadian-items3">
-								<img src="img/搭配8.jpg" alt="">
+								<img attr="img/搭配8.jpg" src="img/加载2.jpg" alt="">
 							</a>
 						</div>
 
@@ -536,7 +606,7 @@
 			</div>
 		</div>
 
-		<div class="jiadian">
+		<div class="jiadian floor">
 			<div class="jiadian-top">
 				<h2>配件</h2>
 				<div class="jiadian-wenzi">
@@ -549,12 +619,12 @@
 			<div class="jiadian-bottom">
 				<div class="jiadian-right dapei-right">
 					<a href="" class="jiadian-item">
-						<img src="img/配件1.jpg" alt="">
+						<img attr="img/配件1.jpg" src="img/加载2.jpg" alt="">
 					</a>
 					<div class="jiadian-item">
 						<div class="jiadian-item1-1-1"></div>
 						<a href="" class="jiadian-item2">
-							<img src="img/配件2.jpg" alt="">
+							<img attr="img/配件2.jpg" src="img/加载2.jpg" alt="">
 						</a>
 						<a href="" class="jiadian-item3">小米6 弧边高透膜</a>
 						<span class="jiadian-item5">29元</span>
@@ -564,7 +634,7 @@
 					<div class="jiadian-item">
 						<div class="jiadian-item1-2"></div>
 						<a href="" class="jiadian-item2">
-							<img src="img/配件3.jpg" alt="">
+							<img attr="img/配件3.jpg" src="img/加载2.jpg" alt="">
 						</a>
 						<a href="" class="jiadian-item3">小米6 高透软胶保护套</a>
 						<span class="jiadian-item5">19元</span>
@@ -574,7 +644,7 @@
 					<div class="jiadian-item">
 						<div class="jiadian-item1">享9折</div>
 						<a href="" class="jiadian-item2">
-							<img src="img/配件4.jpg" alt="">
+							<img attr="img/配件4.jpg" src="img/加载2.jpg" alt="">
 						</a>
 						<a href="" class="jiadian-item3">小米Note 3 智能立显...</a>
 						<span class="jiadian-item5">69元</span>
@@ -584,7 +654,7 @@
 					<div class="jiadian-item">
 						<div class="jiadian-item1">新品</div>
 						<a href="" class="jiadian-item2">
-							<img src="img/配件5.jpg" alt="">
+							<img attr="img/配件5.jpg" src="img/加载2.jpg" alt="">
 						</a>
 						<a href="" class="jiadian-item3">MIX 2 标准高透膜</a>
 						<span class="jiadian-item5">39元</span>
@@ -592,12 +662,12 @@
 						<a href="" class="jiadian-item6"></a>
 					</div>
 					<a href="" class="jiadian-item">
-						<img src="img/配件6.jpg" alt="">
+						<img attr="img/配件6.jpg" src="img/加载2.jpg" alt="">
 					</a>
 					<div class="jiadian-item">
 						<div class="jiadian-item1">享8折</div>
 						<a href="" class="jiadian-item2">
-							<img src="img/配件7.jpg" alt="">
+							<img attr="img/配件7.jpg" src="img/加载2.jpg" alt="">
 						</a>
 						<a href="" class="jiadian-item3">小米6 硅胶保护套</a>
 						<span class="jiadian-item5">49元</span>
@@ -607,7 +677,7 @@
 					<div class="jiadian-item">
 						<div class="jiadian-item1">享8折</div>
 						<a href="" class="jiadian-item2">
-							<img src="img/配件8.jpg" alt="">
+							<img attr="img/配件8.jpg" src="img/加载2.jpg" alt="">
 						</a>
 						<a href="" class="jiadian-item3">小米Note 3 硅胶保护套</a>
 						<span class="jiadian-item5">69元</span>
@@ -617,7 +687,7 @@
 					<div class="jiadian-item">
 						<div class="jiadian-item1-3"></div>
 						<a href="" class="jiadian-item2">
-							<img src="img/配件9.jpg" alt="">
+							<img attr="img/配件9.jpg" src="img/加载2.jpg" alt="">
 						</a>
 						<a href="" class="jiadian-item3">MIX 2 硅胶保护套</a>
 						<span class="jiadian-item5">69元</span>
@@ -633,7 +703,7 @@
 								<span class="jiadian-item5">19元</span>
 							</div>
 							<a href="" class="jiadian-items3">
-								<img src="img/配件10.jpg" alt="">
+								<img attr="img/配件10.jpg" src="img/加载2.jpg" alt="">
 							</a>
 						</div>
 
@@ -653,7 +723,7 @@
 			</div>
 		</div>
 		
-		<div class="jiadian">
+		<div class="jiadian floor">
 			<div class="jiadian-top">
 				<h2>周边</h2>
 				<div class="jiadian-wenzi">
@@ -667,12 +737,12 @@
 			<div class="jiadian-bottom">
 				<div class="jiadian-right dapei-right">
 					<a href="" class="jiadian-item">
-						<img src="img/周边1.jpg" alt="">
+						<img attr="img/周边1.jpg" src="img/加载2.jpg" alt="">
 					</a>
 					<div class="jiadian-item">
 						<div class="jiadian-item1-1-1-1">新品</div>
 						<a href="" class="jiadian-item2">
-							<img src="img/周边2.jpg" alt="">
+							<img attr="img/周边2.jpg" src="img/加载2.jpg" alt="">
 						</a>
 						<a href="" class="jiadian-item3">知吾煮抗摔玻璃...</a>
 						<span class="jiadian-item5">59元</span>
@@ -682,7 +752,7 @@
 					<div class="jiadian-item">
 						<div class="jiadian-item1-1-1-1">新品</div>
 						<a href="" class="jiadian-item2">
-							<img src="img/周边3.jpg" alt="">
+							<img attr="img/周边3.jpg" src="img/加载2.jpg" alt="">
 						</a>
 						<a href="" class="jiadian-item3">8H懒人舒适沙发</a>
 						<span class="jiadian-item5">649元</span>
@@ -692,7 +762,7 @@
 					<div class="jiadian-item">
 						<div class="jiadian-item1">享9折</div>
 						<a href="" class="jiadian-item2">
-							<img src="img/周边4.jpg" alt="">
+							<img attr="img/周边4.jpg" src="img/加载2.jpg" alt="">
 						</a>
 						<a href="" class="jiadian-item3">8H乳胶床垫</a>
 						<span class="jiadian-item5">999元</span>
@@ -702,7 +772,7 @@
 					<div class="jiadian-item">
 						<div class="jiadian-item1-1-1-1">新品</div>
 						<a href="" class="jiadian-item2">
-							<img src="img/周边5.jpg" alt="">
+							<img attr="img/周边5.jpg" src="img/加载2.jpg" alt="">
 						</a>
 						<a href="" class="jiadian-item3">贝医生巴氏牙刷（单支装）</a>
 						<span class="jiadian-item5">9.9元</span>
@@ -710,12 +780,12 @@
 						<a href="" class="jiadian-item6"></a>
 					</div>
 					<a href="" class="jiadian-item">
-						<img src="img/周边6.jpg" alt="">
+						<img attr="img/周边6.jpg" src="img/加载2.jpg" alt="">
 					</a>
 					<div class="jiadian-item">
 						<div class="jiadian-item1-1-1-1">新品</div>
 						<a href="" class="jiadian-item2">
-							<img src="img/周边7.jpg" alt="">
+							<img attr="img/周边7.jpg" src="img/加载2.jpg" alt="">
 						</a>
 						<a href="" class="jiadian-item3">经典百搭连帽卫衣</a>
 						<span class="jiadian-item5">149元</span>
@@ -725,7 +795,7 @@
 					<div class="jiadian-item">
 						<div class="jiadian-item1">享8折</div>
 						<a href="" class="jiadian-item2">
-							<img src="img/周边8.jpg" alt="">
+							<img attr="img/周边8.jpg" src="img/加载2.jpg" alt="">
 						</a>
 						<a href="" class="jiadian-item3">8H护颈乳胶枕</a>
 						<span class="jiadian-item5">239元</span>
@@ -735,7 +805,7 @@
 					<div class="jiadian-item">
 						<div class="jiadian-item1-1-1-1">新品</div>
 						<a href="" class="jiadian-item2">
-							<img src="img/周边9.jpg" alt="">
+							<img attr="img/周边9.jpg" src="img/加载2.jpg" alt="">
 						</a>
 						<a href="" class="jiadian-item3">小米休闲防风连帽外套</a>
 						<span class="jiadian-item5">299元</span>
@@ -751,7 +821,7 @@
 								<span class="jiadian-item5">499元</span>
 							</div>
 							<a href="" class="jiadian-items3">
-								<img src="img/周边10.jpg" alt="">
+								<img attr="img/周边10.jpg" src="img/加载2.jpg" alt="">
 							</a>
 						</div>
 
@@ -771,7 +841,7 @@
 			</div>
 		</div>
 
-		<div class="danpin tuijian">
+		<div class="danpin tuijian floor">
 			<div class="danpin-top">
 			<div class="danpin-left">为你推荐</div>
 			<div class="danpin-right">
@@ -786,7 +856,7 @@
 			<div class="tuijian-bottom">
 			<div class="danpin-contant">
 				<a href="" class="danpin-img">
-					<img src="img/contant1.png" alt="">
+					<img attr="img/contant1.png" src="img/加载2.jpg" alt="">
 				</a href="">
 				<a href="" class="danpin-wenzi1">小米Max2</a>
 				<h5 class="danpin-wenzi2">大屏大电量，享多重好礼</h5>
@@ -795,7 +865,7 @@
 
 			<div class="danpin-contant danpin-contant1">
 				<a href="" class="danpin-img">
-					<img src="img/contant2.png" alt="">
+					<img attr="img/contant2.png" src="img/加载2.jpg" alt="">
 				</a href="">
 				<a href="" class="danpin-wenzi1">红米Note 4X</a>
 				<h5 class="danpin-wenzi2">4100mAh超长续航，多彩金属</h5>
@@ -804,7 +874,7 @@
 
 			<div class="danpin-contant danpin-contant2">
 				<a href="" class="danpin-img">
-					<img src="img/contant3.png" alt="">
+					<img attr="img/contant3.png" src="img/加载2.jpg" alt="">
 				</a href="">
 				<a href="" class="danpin-wenzi1">红米4X</a>
 				<h5 class="danpin-wenzi2">4100mAh超长续航，8核处理器</h5>
@@ -813,7 +883,7 @@
 
 			<div class="danpin-contant danpin-contant3">
 				<a href="" class="danpin-img">
-					<img src="img/contant4.png" alt="">
+					<img attr="img/contant4.png" src="img/加载2.jpg" alt="">
 				</a href="">
 				<a href="" class="danpin-wenzi1">小米电视4A 43英寸 标准版</a>
 				<h5 class="danpin-wenzi2">全高清HDR 四核高性能处理器</h5>
@@ -822,7 +892,7 @@
 
 			<div class="danpin-contant danpin-contant4">
 				<a href="" class="danpin-img">
-					<img src="img/contant5.png" alt="">
+					<img attr="img/contant5.png" src="img/加载2.jpg" alt="">
 				</a href="">
 				<a href="" class="danpin-wenzi1">小米笔记本</a>
 				<h5 class="danpin-wenzi2">更轻更薄，像杂志一样随身携带</h5>
@@ -831,7 +901,7 @@
 			</div>
 	    </div>
 
-	    <div class="video">
+	    <div class="video floor">
 	    	<div class="danpin-top">
 				<div class="danpin-left">视频</div>
 				<div class="video-right">
@@ -845,7 +915,7 @@
 			<div class="video-bottom">
 	    		<div class="video-item">
 	    			<div class="video-item1">
-	    				<img src="img/视频1.jpg" alt="">
+	    				<img attr="img/视频1.jpg" src="img/加载2.jpg" alt="">
 						<a href="" class="iconfont icon-status-play-copy"></a>
 	    			</div>
 	    			<a href="" class="video-item2">雷军与斯塔克打造全面屏2.0</a>
@@ -854,7 +924,7 @@
 
 	    		<div class="video-item">
 	    			<div class="video-item1">
-	    				<img src="img/视频2.jpg" alt="">
+	    				<img attr="img/视频2.jpg" src="img/加载2.jpg" alt="">
 						<a href="" class="iconfont icon-status-play-copy"></a>
 	    			</div>
 	    			<a href="" class="video-item2">小米Note 3 与吴亦凡</a>
@@ -863,7 +933,7 @@
 
 	    		<div class="video-item">
 	    			<div class="video-item1">
-	    				<img src="img/视频3.jpg" alt="">
+	    				<img attr="img/视频3.jpg" src="img/加载2.jpg" alt="">
 						<a href="" class="iconfont icon-status-play-copy"></a>
 	    			</div>
 	    			<a href="" class="video-item2">MIUI 9 理念视频</a>
@@ -872,7 +942,7 @@
 
 	    		<div class="video-item">
 	    			<div class="video-item1">
-	    				<img src="img/视频4.jpg" alt="">
+	    				<img attr="img/视频4.jpg" src="img/加载2.jpg" alt="">
 						<a href="" class="iconfont icon-status-play-copy"></a>
 	    			</div>
 	    			<a href="" class="video-item2">拍人更美的背后故事</a>
@@ -885,7 +955,7 @@
 	<!-- 商品结束 -->
 
 	<!-- 站点地图开始 -->
-	<div class="site">
+	<div class="site floor">
 		<div class="Site-top">
 			<div class="Site-top-neikuang">
 				<a href="" class="Site-top-neikuang-item1">
@@ -916,8 +986,191 @@
 			</div>
 		</div>
 
-		<div class="Site-bottom"></div>
+		<div class="Site-bottom">
+			<div class="Site-bottom-neikuang">
+				<div class="Site-bottom-neikuang-span1">
+					<span class="Site-bottom-neikuang-span1-title">帮助中心</span>
+					<br>
+					<br>
+					<a href="" class="Site-bottom-neikuang-span1-text">账户管理</a>
+					<br>
+					<a href="" class="Site-bottom-neikuang-span1-text1">购物指南</a>
+					<br>
+					<a href="" class="Site-bottom-neikuang-span1-text1">订单操作</a>
+				</div>
+				<div class="Site-bottom-neikuang-span1">
+					<span class="Site-bottom-neikuang-span1-title">服务支持</span>
+					<br>
+					<br>
+					<a href="" class="Site-bottom-neikuang-span1-text">售后政策</a>
+					<br>
+					<a href="" class="Site-bottom-neikuang-span1-text1">自助服务</a>
+					<br>
+					<a href="" class="Site-bottom-neikuang-span1-text1">相关下载</a>
+				</div>
+				<div class="Site-bottom-neikuang-span1">
+					<span class="Site-bottom-neikuang-span1-title">线下门店</span>
+					<br>
+					<br>
+					<a href="" class="Site-bottom-neikuang-span1-text">小米之家</a>
+					<br>
+					<a href="" class="Site-bottom-neikuang-span1-text1">服务网点</a>
+					<br>
+					<a href="" class="Site-bottom-neikuang-span1-text1">零售网点</a>
+				</div>
+				<div class="Site-bottom-neikuang-span1">
+					<span class="Site-bottom-neikuang-span1-title">关于小米</span>
+					<br>
+					<br>
+					<a href="" class="Site-bottom-neikuang-span1-text">了解小米</a>
+					<br>
+					<a href="" class="Site-bottom-neikuang-span1-text1">加入小米</a>
+					<br>
+					<a href="" class="Site-bottom-neikuang-span1-text1">联系我们</a>
+				</div>
+				<div class="Site-bottom-neikuang-span1">
+					<span class="Site-bottom-neikuang-span1-title">关注我们</span>
+					<br>
+					<br>
+					<a href="" class="Site-bottom-neikuang-span1-text">新浪微博</a>
+					<br>
+					<a href="" class="Site-bottom-neikuang-span1-text1">小米部落</a>
+					<br>
+					<a href="" class="Site-bottom-neikuang-span1-text1">官方微信</a>
+				</div>
+				<div class="Site-bottom-neikuang-span1">
+					<span class="Site-bottom-neikuang-span1-title">特色服务</span>
+					<br>
+					<br>
+					<a href="" class="Site-bottom-neikuang-span1-text">F码通道</a>
+					<br>
+					<a href="" class="Site-bottom-neikuang-span1-text1">礼物码</a>
+					<br>
+					<a href="" class="Site-bottom-neikuang-span1-text1">防伪查询</a>
+				</div>
+				<div class="Site-bottom-neikuang-span2">
+					<span class="Site-bottom-neikuang-span2-tel">400-100-5678</span>
+					<br>
+					<span class="Site-bottom-neikuang-span2-text">周一至周日 8:00-18:00</span>
+					<br>
+					<span class="Site-bottom-neikuang-span2-text">（仅收市话费）</span>
+					<br>
+					<div class="Site-bottom-neikuang-span2-btn">
+						24小时在线服务
+					</div>
+				</div>
+
+			</div>
+		</div>
 	</div>
 	<!-- 站点地图结束 -->
+	<!-- 底部开始 -->
+	<div class="info">
+		<div class="info-neirong">
+			<div class="info-logo-hezi">
+				<img src="img/mi-logo.png" alt="" class="info-logo">
+			</div>
+			<div class="info-wenzi1-box00">
+				<div class="info-wenzi1-box1">
+					<a href="" class="info-wenzi1">小米商城</a>
+				</div>
+				<div class="infoshuxian"></div>
+				<div class="info-wenzi1-box1">
+					<a href="" class="info-wenzi1">MIUI</a>
+				</div>
+				<div class="infoshuxian"></div>
+				<div class="info-wenzi1-box1">
+					<a href="" class="info-wenzi1">米聊</a>
+				</div>
+				<div class="infoshuxian"></div>
+				<div class="info-wenzi1-box1">
+					<a href="" class="info-wenzi1">多看书城</a>
+				</div>
+				<div class="infoshuxian"></div>
+				<div class="info-wenzi1-box1">
+					<a href="" class="info-wenzi1">小米路由器</a>
+				</div>
+				<div class="infoshuxian"></div>
+				<div class="info-wenzi1-box1">
+					<a href="" class="info-wenzi1">视频电话</a>
+				</div>
+				<div class="infoshuxian"></div>
+				<div class="info-wenzi1-box1">
+					<a href="" class="info-wenzi1">小米天猫店</a>
+				</div>
+				<div class="infoshuxian"></div>
+				<div class="info-wenzi1-box1">
+					<a href="" class="info-wenzi1">小米淘宝直营店</a>
+				</div>
+				<div class="infoshuxian"></div>
+				<div class="info-wenzi1-box1">
+					<a href="" class="info-wenzi1">小米网盟</a>
+				</div>
+				<div class="infoshuxian"></div>
+				<div class="info-wenzi1-box1">
+					<a href="" class="info-wenzi1">小米移动</a>
+				</div>
+				<div class="infoshuxian"></div>
+				<div class="info-wenzi1-box1">
+					<a href="" class="info-wenzi1">隐私政策</a>
+				</div>
+				<div class="infoshuxian"></div>
+				<div class="info-wenzi1-box1">
+					<a href="" class="info-wenzi1">Select Region</a>
+				</div>	
+			</div>
+			<div class="info-right-box">
+				<div class="xiaolianjie">
+					<img src="img/协议1.png" alt="" class="xiaolianjie-i">
+					<img src="img/协议2.png" alt="" class="xiaolianjie-i">
+					<img src="img/协议3.png" alt="" class="xiaolianjie-i">
+					<img src="img/协议4.png" alt="" class="xiaolianjie-i">
+				</div>
+			</div>
+			<div class="info-wenzi1-box01">
+				<div class="shengming">
+					@
+					<a href="" class="info-lianjie">mi.com</a>
+					京ICP证110507号 
+					<a href="" class="info-lianjie">京ICP备10046444号</a>
+					<a href="" class="info-lianjie">京公网安备11010802020134号</a>
+					<a href="" class="info-lianjie">京网文[2014]0059-0009号</a>
+				</div>
+				<div class="weifa">违法和不良信息举报电话：185-0130-1238，本网站所列数据，除特殊说明，所有数据均出自我司实验室测试
+				</div>
+			</div>
+		</div>
+		<div class="fashao">探索黑科技，小米为发烧而生!</div>
+	</div>	
+	<!-- 底部结束 -->
 </body>
 </html>
+<script> 
+var mySwiper = new Swiper('.swiper-container', {
+	autoplay: 2000,//可选选项，自动滑动
+	effect : 'fade',
+	pagination : '.swiper-pagination',
+	prevButton:'.swiper-button-prev',
+	nextButton:'.swiper-button-next',
+	loop:true,
+})
+let floor = document.querySelectorAll(".floor");
+document.onscroll = function(){
+	var scrollTop=0; 
+	if(document.documentElement&&document.documentElement.scrollTop){ 
+	scrollTop=document.documentElement.scrollTop; 
+	}else if(document.body){ 
+	scrollTop=document.body.scrollTop; 
+	} 
+	for(let i = 0;i < floor.length;i++){
+		if(scrollTop > floor[i].offsetTop - 300){
+			var images=$('img',floor[i]);//获取该楼层中所有的图片
+			for(var j=0;j<images.length;j++){//将该楼层所有的图片路径转换为相应attr属性中的路径值
+				var attr=images[j].getAttribute('attr');
+				images[j].setAttribute('src',attr);
+				images.src=attr;     
+			}
+		}
+	}
+}
+</script>
